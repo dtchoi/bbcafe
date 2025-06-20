@@ -1,4 +1,4 @@
-# bbcafe
+# B&B Cafe
 
 This repository contains the source code for **B&B Cafe's** official website.
 
