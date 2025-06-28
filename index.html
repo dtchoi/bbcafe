@@ -7,24 +7,28 @@
   <style>
     body {
       margin: 0;
+      padding: 0 20px;
       font-family: 'Helvetica Neue', sans-serif;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      height: 100vh;
+      min-height: 100vh;
       background: #faf3e0;
       color: #333;
+      text-align: center;
     }
     h1 {
       font-size: 2.5rem;
+      margin-bottom: 10px;
     }
     p {
-      font-size: 1.2rem;
+      font-size: 1.1rem;
+      margin: 5px 0;
     }
     a {
       display: inline-block;
-      margin-top: 20px;
+      margin: 20px 0;
       padding: 10px 20px;
       background-color: #6b4c3b;
       color: #fff;
@@ -36,11 +40,24 @@
     a:hover {
       background-color: #5a3d2e;
     }
+    .info {
+      margin-top: 20px;
+      font-size: 1rem;
+    }
   </style>
 </head>
 <body>
   <h1>Welcome to B&B Cafe</h1>
-  <p>Your neighborhood spot for lunch!</p>
-  <a href="menu.pdf" target="_blank">📄 View Our Menu</a>
+  <p>Your neighborhood spot for breakfast and lunch!</p>
+  <a href="breakfastmenu.pdf" target="_blank">📄 View Our Breakfast Menu</a>
+  <a href="lunchmenu.pdf" target="_blank">📄 View Our Lunch Menu</a>
+
+  <div class="info">
+    <p><strong>Address:</strong><br>5454 Wisconsin Avenue<br>Chevy Chase, MD 20815</p>
+    <p>Located behind the lobby of the Barlow Building</p>
+    <p>Monday – Friday<br>7 AM – 4 PM</p>
+    <p>ATM Available 💵</p>
+    <p><strong>Ask for catering!</strong> 🎉</p>
+  </div>
 </body>
 </html>
