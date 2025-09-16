@@ -12,7 +12,7 @@ This repository contains the source code for **B&B Cafe's** official website.
 - `style.css` – Basic styling for the site
 
 ## 🔗 Live Site
-(Coming soon)
+[bbcafemd.com](bbcafemd.com)
 
 ---
 
